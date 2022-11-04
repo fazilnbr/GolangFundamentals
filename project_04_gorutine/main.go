@@ -7,7 +7,7 @@ import (
 
 func main() {
 	t := time.Now()
-	go greetings("hello world")
+	greetings("hello world")
 
 	greetings("hi fasil")
 
